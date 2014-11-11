@@ -1,5 +1,5 @@
 {
-  "name": "The City Admin API Client",
+  "name": "thecity-admin-client",
   "version": "0.0.1",
   "description": "Provides a node client for The City's admin api.",
   "main": "index.js",
