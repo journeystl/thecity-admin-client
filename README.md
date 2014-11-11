@@ -1,5 +1,5 @@
 #The City API Client
-This node module provides a client for [The City's](http://onthecity.org) [api](http://api.onthecity.org).
+This node module provides a client for [The City's](http://onthecity.org) [admin api](http://api.onthecity.org).
 
 ##Installation
 ####npm
@@ -24,7 +24,7 @@ that the city supports, it's up to the user to call the appropriate endpoint, me
 ```
 var apikey = 'YOURAPIKEY'
   , usertoken = 'YOURUSERTOKEN'
-  , client = require('thecity-client');
+  , client = require('thecity-admin-client');
   , api = new client(apikey, usertoken);
 
 // Load all users.
